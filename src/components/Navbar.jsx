@@ -47,7 +47,7 @@ export default function Navbar() {
           </li>
           <li>
             <a href="#services" onClick={() => setNavbarState(false)}>
-              Services
+              About
             </a>
           </li>
           <li>

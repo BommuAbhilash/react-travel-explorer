@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import homeImage from "../assets/cover1.jpg";
+import homeImage from "../assets/cover.jpg";
 export default function Hero() {
   return (
     <Section id="hero">
@@ -23,6 +23,7 @@ export default function Hero() {
           <div className="container">
             <label htmlFor="">Check-in</label>
             <input type="date" />
+            
           </div>
           <div className="container">
             <label htmlFor="">Check-out</label>
